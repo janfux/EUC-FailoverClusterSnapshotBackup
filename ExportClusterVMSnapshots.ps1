@@ -46,8 +46,7 @@ $SnapshotName = "$SnapshotPrefix-$FileDate"
 # path to backup directory
 $ExportDirPath = "\\10.135.74.29\clusterbackup"
 # name of the directory to export to
-# here: local temporary dir to avoid error when exporting directly to samba (linux) share
-# maybe direct export to share on windows server is possible...
+# here: local temporary dir to avoid error when exporting indirectly to samba (linux) share
 $ExportTmpDirPath = "D:/ClusterBackupTmp"
 $ExportLogDirPath = "$ExportDirPath\Logs"
 # log file - create cluster-local in case network not available, copy to backup location later
