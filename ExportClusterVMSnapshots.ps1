@@ -44,7 +44,7 @@ $FileDate = Get-Date -Format FileDate
 $SnapshotPrefix = "Backup"
 $SnapshotName = "$SnapshotPrefix-$FileDate"
 # path to backup directory
-$ExportDirPath = "\\10.135.74.29\clusterbackup"
+$ExportDirPath = "\\10.10.10.10\clusterbackup"
 # name of the directory to export to
 # here: local temporary dir to avoid error when exporting indirectly to samba (linux) share
 $ExportTmpDirPath = "D:/ClusterBackupTmp"
